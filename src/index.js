@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+var element = React.createElement('h1', { className: 'greeting' }, 'Hello, Yes!');
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  element, // <App />
   document.getElementById('root')
 );
 
